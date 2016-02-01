@@ -22,7 +22,9 @@ RUN echo "deb http://archive.ubuntu.com/ubuntu vivid main restricted universe mu
 		libpulse-dev:i386 \
 		openssh-client \
 		phablet-tools \
+		phablet-tools-citrain \
 		pxz \
+		software-properties-common \
 		ubuntu-device-flash \
 		ubuntu-emulator \
 		&& \
