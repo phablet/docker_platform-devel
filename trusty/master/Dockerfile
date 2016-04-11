@@ -1,4 +1,4 @@
-FROM vicamo/platform-devel-base:trusty-openjdk-7
+FROM phablet/platform-devel-base:trusty-openjdk-7
 
 RUN apt-get update \
 	&& apt-get install --no-install-recommends -y \

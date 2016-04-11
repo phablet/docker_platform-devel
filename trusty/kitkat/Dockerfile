@@ -1,4 +1,4 @@
-FROM vicamo/platform-devel-base:trusty-oracle-java-6
+FROM phablet/platform-devel-base:trusty-oracle-java-6
 
 RUN apt-get update \
 	&& apt-get install --no-install-recommends -y \
